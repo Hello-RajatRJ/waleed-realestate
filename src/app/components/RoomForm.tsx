@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, ChangeEvent, FormEvent } from 'react'
+import React, { useState, FormEvent } from 'react'
 
 const RoomForm: React.FC = () => {
     const [checkIn, setCheckIn] = useState('');

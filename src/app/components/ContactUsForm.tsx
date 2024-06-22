@@ -122,7 +122,7 @@ export default function ContactUsForm() {
                     className="form-input w-full p-2 border border-gray-300 rounded"
                     placeholder="Message"
                     value={formData.message}
-                    onChange={handleChange}
+                    // onChange={handleChange}
                   />
                 </div>
               </div>

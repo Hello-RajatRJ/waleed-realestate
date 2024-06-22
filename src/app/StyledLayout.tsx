@@ -3,11 +3,9 @@ import Image from "next/image";
 import React from "react";
 import logo from "@/assets/images/logo.svg";
 
-interface styledProps {
-  children: any;
-}
 
-const StyledLayout = (props: styledProps) => {
+
+const StyledLayout = (props:any) => {
   const { children } = props || {};
   return (
     <div>
@@ -46,7 +44,7 @@ const StyledLayout = (props: styledProps) => {
         </nav>
       </header>
       {children}
-      <footer className="bg-gray-900 text-white p-4">
+      <footer className="bg-[#381909] text-white p-4">
         <div className="container mx-auto text-center">
           <p>© 2024 General Project. All rights reserved.</p>
         </div>
